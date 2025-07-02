@@ -2,8 +2,8 @@ import java.io.*;
 import java.util.*;
 public class Solution {
     public static void main(String[] args) {
-        Scanner mv=new Scanner(System.in);
-        int salary=mv.nextInt();
+        Scanner sc=new Scanner(System.in);
+        int salary=sc.nextInt();
         double result=0;
         result=gross(salary);
             System.out.printf("%.2f",result);
